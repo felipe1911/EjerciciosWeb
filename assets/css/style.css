@@ -1,0 +1,22 @@
+body{
+    margin: 1;
+    width: auto;
+    height: 0;
+}
+
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+     background-repeat:no-repeat;
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;}
+
+h1 {background-color: rgba(174, 47, 70, 0.8);
+    color: rgb(64, 61, 56);
+    text-align: center;
+    color: rgb(255, 255, 255);}
+
+form {margin: 1cm;
+    background-color: rgba(228, 64, 124, 0.8);
+    font-weight: 300;font-size:100%;
+    }
