@@ -45,15 +45,42 @@ p{font-weight: 500;
 
 ul{
     color: teal;
-    font-size: large;
+    font-size:x-large;
     font-weight: 700;
+    margin-bottom: 10%;
 }
 
 li {
     text-align: left;
+    font-size: medium;
     margin-left: 10%;
     font-weight: 500;
-    list-style-image: url("assets/img/flower.png");
+    list-style-image: url("../img/flower.png");
+}
+
+table{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: teal;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: left;
+    border-width: 3px;
+    border-style: solid;
+    border-collapse: collapse;
 
 }
 
