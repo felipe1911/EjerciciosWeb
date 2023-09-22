@@ -5,18 +5,39 @@ body{
 }
 
 
-body {
-    background-image: url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
-     background-repeat:no-repeat;
-    background-size:cover;
+body {background-color: rgb(199, 226, 217);
     font-family: Arial, Helvetica, sans-serif;}
 
-h1 {background-color: rgba(174, 47, 70, 0.8);
-    color: rgb(64, 61, 56);
+h1 {background-color: rgba(62, 104, 106, 0.8);
     text-align: center;
     color: rgb(255, 255, 255);}
+
+h3 {color: rgb(230, 230, 230);
+    background-color: rgb(68, 104, 135);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    }
 
 form {margin: 1cm;
     background-color: rgba(228, 64, 124, 0.8);
     font-weight: 300;font-size:100%;
     }
+
+p{font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: large;
+}
+
+
