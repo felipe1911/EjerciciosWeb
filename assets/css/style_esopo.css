@@ -1,0 +1,26 @@
+table{
+    margin: 10%;
+    background-color: teal;
+    color: rgb(253, 250, 247);
+    border-style: dashed;
+    border-collapse: collapse;
+    border-width: 6px;
+    border-color: yellow;
+}
+
+img{
+    width: 80%;
+    margin: 5%;
+}
+
+h1{
+    margin: 2%;
+    margin-top: 60px;
+}
+
+td{border-color: teal;}
+
+.homero {
+    color: yellow;
+    text-decoration: underline;
+}
