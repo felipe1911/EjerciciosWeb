@@ -5,34 +5,43 @@
         <meta name = 'Felipe Muñoz', content="Intro html">
         <title>Ejercicios básicos de HTML</title>
         <link rel="icon" href="./assets/img/bxs-sushi.svg">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style_inicio.css">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        </style>
     </head> 
     <body>
-        <h1>Hola Mundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, <strong>elit</strong> . <u>Nobis</u> cumque
-             sint nisi cupiditate, suscipit exercitationem quo odit sit.<br> Vel animi maxime fuga aliquam dolor, perspiciatis 
-            nemo maiores cum dolore sed!</p>
-        <a href="https://es.wikipedia.org/wiki/Sushi"><img src="assets/img/img1.jpg" width="200" height="250"></a>
-        <ul>
-            <li><a href="https://es-la.facebook.com/login" target="_top">Facebook</a></li>
-            <li><a href="./views/Messi.html">Messi</a></li>
-            <li><a href="./views/Checo.html">Checo Pérez</a></li>
-            <li><a href="./views/Horario.html">Horario</a></li>
-            <li><a href="./views/forms.html">Formulario</a></li>
-        </ul>
-        <table border="1">
-            <caption>Listado de Precios</caption>
-            <tr>
-                <th>Item</th> 
-                <th>Nombre</th>
-                <th>Precio</th>
-                <th>Imagen</th>
-            </tr>
-            <tr> <td><em><b>1</b></em></td> 
-                <td><em><b>Camiseta Barcelona</b></em></td>
-                <td><em><b>$105</b></em></td>
-                <td><img src="https://store.fcbarcelona.com/cdn/shop/files/24100LS_1_7463ec8e-8c11-4185-ac16-f2edb8ffdb98.jpg?v=1692890313&width=823", width="80" height="100"></td>
-            </tr>
-        </table>
+        <div class="header">
+            <h1>Página de Inicio</h1>
+            <table>
+                <tr> <td><a href="https://es-la.facebook.com/login" target="_top">Facebook</a></td> 
+                    <td><a href="./views/Messi.html">Messi</a></td> 
+                    <td><a href="./views/Checo.html">Checo Pérez</a>
+                    <td><a href="./views/EsopoDivs.html">Esopo</a></td>
+                    <td><a href="./views/sailor.html">Sailor Moon</a></td>
+                    </tr>
+            </table>
+        </div>
+        <div class="cuerpo">
+            <div class="imagen">
+                <a href="https://es.wikipedia.org/wiki/Sushi"><img src="assets/img/img1.jpg" id="sushi"></a>
+                </div>
+            <div class="primerParrafo">
+            <p>Lorem ipsum dolor sit amet consectetur, <strong>elit</strong> . <u>Nobis</u> cumque
+                sint nisi cupiditate, suscipit exercitationem quo odit sit.<br> Vel animi maxime fuga aliquam dolor, perspiciatis 
+                nemo maiores cum dolore sed! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Nisi deserunt, iusto, quod modi asperiores, eligendi alias veritatis 
+                explicabo fugit ipsa voluptate sequi? Ipsam qui optio consectetur amet 
+                ea sed accusantium! Lorem ipsum dolor, sit amet consectetur adipisicing elit. At impedit aliquam, vitae dolor in, velit neque saepe quisquam reiciendis, esse illum omnis 
+                fuga. Nostrum, in quibusdam fugiat veritatis debitis delectus.
+                Velit, corrupti pariatur et natus, eos sed odit aperiam commodi saepe architecto hic, quo dicta temporibus debitis minima. Id ipsum eum nam repellat quisquam minus sint, 
+                facilis modi sapiente laboriosam?
+                Distinctio non voluptatem reprehenderit doloremque fugit similique at, assumenda eius vero nostrum, maxime autem quos, molestias fuga commodi. Nesciunt ipsum facere tenetur porro nam magni quo, maiores ea possimus sed.</p>
+            </div>
+            
+            
+        </div>
     </body>
 
 </html>

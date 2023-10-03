@@ -1,0 +1,37 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{background-color: rgb(33, 122, 122);
+padding: 30px;
+color: white;}
+
+.imagen img {float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+.header td{width: 100px;
+text-align: center;}
+
+.header a{color: white;
+text-decoration: none;}
+
+.header a:hover{color: rgb(47, 205, 205);}
+
+.cuerpo {padding: 30px;
+background-color:  rgb(49, 175, 175);
+color: white;
+height: 400px;}
+
+
+
+.primerParrafo {margin-left: 220px;
+text-align: justify;}
+
+
+
