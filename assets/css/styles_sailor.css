@@ -19,28 +19,34 @@ body{
 
 .titulo img {width: 150px;}
 
-.contenido {width: 1000px;
+.contenido {margin: 20px 100px 10px 100px;
 text-align: center;}
 
 .contenido h2{
     font-family:'Fredoka One', cursive;
-    color: white;
-    text-shadow: 0px 0px 10px black;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px black;
 }
 
 .personaje{
     background: linear-gradient(#F9A9FB,#F9D3FA);
     margin: 20px 0px;
-    padding: 30px 30px;
+    padding: 10px 10px 50px 10px;
     box-shadow: 3px 3px 7px #999999;
     font-family: 'Muli',sans-serif;
 }
 
 .personaje img {width: 150px;
+    height: 150px;
 border: 7px solid white;
 float: left;
 margin-right: 20px;
 margin-bottom: 20px;
 border-radius: 50%;}
 
+.personaje h2{text-shadow: 2px 2px 3px black;
+color: white;}
+
 .personaje p {text-align: justify;}
+
+.contenido ul {list-style-image: url('../img/lunalista.png');}
