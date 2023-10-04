@@ -17,7 +17,10 @@ body{
     font-size: 40px;
 }
 
-.titulo img {width: 150px;}
+.titulo img {width: 150px;
+transform: translate(500px);
+transition: transform 5s linear 3s;
+transition-duration: 3s;}
 
 .contenido {margin: 20px 100px 10px 100px;
 text-align: center;}
@@ -42,7 +45,12 @@ border: 7px solid white;
 float: left;
 margin-right: 20px;
 margin-bottom: 20px;
-border-radius: 50%;}
+border-radius: 50%;
+transition: scale 1s;}
+
+.personaje img:hover{scale: 1.3;}
+
+
 
 .personaje h2{text-shadow: 2px 2px 3px black;
 color: white;}
@@ -50,3 +58,57 @@ color: white;}
 .personaje p {text-align: justify;}
 
 .contenido ul {list-style-image: url('../img/lunalista.png');}
+
+
+.boton a{color:white; 
+    text-decoration: none;
+color: white;
+background-color: rgb(28, 170, 170);
+padding: 20px;
+border-radius: 20px;
+}
+
+.boton a:hover{background-color: rgb(227, 60, 105);
+transition-property: background-color;
+transition-duration: 0.3s;
+transition-timing-function: linear;
+transition-delay: 0;}
+
+.cajaprincipal{
+    width:270px;
+    height: 350px;
+    overflow: hidden;
+    color:white;
+    margin:  20px auto;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.encabezado{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cajaperfil{
+    width:540px;
+    transition: transform 1s;
+}
+
+.cajaperfil:hover{
+    transform: translate(-270px);
+}
+
+.foto,.datos {width:270px;
+text-align: center;
+float:left;
+margin: 20px auto;
+color: black;}
+
+
+.foto img{width: 150px;
+background-color: white;}
+
+.datos img{width: 270px;}
+
