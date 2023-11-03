@@ -1,9 +1,19 @@
-let a = 5
-let b = 10
 
-console.log(`La suma es ${a+b}`)
+function appendTooperacion(value) {
+    const operacion = document.getElementById('Operacion');
+    operacion.value += value;
+}
 
-let num1 = parseInt(prompt('Digite el primer número: '))
-let num2 = parseInt(prompt('Digite el segundo número: '))
+function clearoperacion() {
+    const operacion = document.getElementById('Operacion');
+    operacion.value = '';
+}
 
-console.log(`El resultado es ${num1+num2}`)
+function calculateResult() {
+    const operacion = document.getElementById('Operacion');
+    try {
+        operacion.value = eval(operacion.value);
+    } catch (error) {
+        operacion.value = 'Error';
+    }
+}
