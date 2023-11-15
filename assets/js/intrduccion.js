@@ -1,15 +1,15 @@
 
-function appendTooperacion(value) {
+function appendToOperacion(value) {
     const operacion = document.getElementById('Operacion');
     operacion.value += value;
 }
 
-function clearoperacion() {
+function clearOperacion() {
     const operacion = document.getElementById('Operacion');
     operacion.value = '';
 }
 
-function calculateResult() {
+function calcularResultado() {
     const operacion = document.getElementById('Operacion');
     try {
         operacion.value = eval(operacion.value);
@@ -17,3 +17,6 @@ function calculateResult() {
         operacion.value = 'Error';
     }
 }
+
+
+
