@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;900&display=swap');
+
+body{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.containerGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the size as needed */
+    grid-gap: 20px; /* Adjust the gap between squares */
+    margin: 10% 5%;
+    max-width: 1000px;
+  }
+
+.cardAlimento {
+    position: relative;
+    width: 200px; 
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(0.5px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+  }
+
+  .carne{
+    background-image: url(https://saboryestilo.com.mx/wp-content/uploads/2023/05/Int-1-Conoce-los-terminos-para-tus-cortes-de-carne.jpg);    
+  }
+
+  .pollo{
+    background-image: url(https://cocinemosjuntos.com.co/media/mageplaza/blog/post/t/i/tips-para-preparar-pollo-al-horno-jugoso-y-perfecto_1_.jpg);
+  }
+  
+  .pescado{
+    background-image: url(https://www.naturalcastello.com/wp-content/uploads/2019/08/pescados-tipos-propiedades-992x448.jpg);
+  }
+
+  .huevo{
+    background-image: url(https://i0.wp.com/www.corpmontana.com/blog/wp-content/uploads/2023/03/color-cascara-de-huevo-scaled.jpg?fit=2560%2C1709&ssl=1);
+  }
+  .pan{
+    background-image: url(https://telemedellin.tv/wp-content/uploads/2022/10/por-que-el-pan-se-pone-duro.jpg);
+  }
+
+  .lacteos{
+    background-image: url(https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/articulos/productos-lacteos.jpg);
+  }
+
+  .frutas{background-image: url(https://www.fisenf.com/wp-content/uploads/2015/11/frutas-y-frutos-secos.jpg);
+  }
+
+  .verduras{
+    background-image: url(https://phantom-marca.unidadeditorial.es/f26736e71a6bfb79e3a2b0c631a1bf4e/resize/828/f/jpg/assets/multimedia/imagenes/2023/05/30/16854588843943.jpg);
+  }
+
+  .granos{
+    background-image: url(https://gastronomiaenvenezuela.com/wp-content/uploads/2015/03/variedad-de-granos-legumbres-caraotas-lentejas-1024x683.jpg);
+  }
+
+  .dulces{
+    background-image: url(https://d100mj7v0l85u5.cloudfront.net/s3fs-public/2023-03/asi-esta-el-mercado-de-dulces-en-colombia.png);
+  }
+
+  .rapida{
+    background-image: url(https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2023/05/16/comida-rapida.jpeg);
+  }
+
+  .bebidas{
+    background-image: url(https://cdn.aarp.net/content/dam/aarp/food/recipes/2018/10/1140-limofresa-gas-drink-esp.jpg);
+  }
+
+
+.cardAlimento::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 194, 255, 0.6);
+    border-radius: 11px;
+ }
+  
+
+ .selector {
+    display: none;
+    position: absolute;
+    background: #EFFFFD;
+    width: 300px;
+    height: 200px;
+    z-index: 1; 
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    opacity: 0; /* Set initial opacity to 0 */
+    transition: opacity 0.3s ease; /* Transition for opacity */
+  }
+
+.Alimento {
+    position: relative;
+    z-index: 1; /* Adjust the stacking order */
+    text-align: center;
+    color: white;
+}
+
+  h3 {
+    margin: 0;
+  }
+  
+
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, minmax(100px, 2fr));
+    }
+  }
